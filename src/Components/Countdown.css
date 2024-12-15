@@ -1,0 +1,86 @@
+
+.countdown-container {
+    width: 100%;
+    max-width: 28rem; 
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+  }
+  
+  /* Heading Styles */
+  .countdown-heading {
+    font-size: 1.875rem; 
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form Styles */
+  .countdown-form {
+    margin-bottom: 1.5rem; 
+  }
+  
+  .countdown-input {
+    width: 100%;
+    padding: 0.5rem 1rem; 
+    border: 1px solid #d1d5db; 
+    border-radius: 0.5rem;
+    outline: none;
+    transition: box-shadow 0.2s, border-color 0.2s;
+  }
+  
+  .countdown-input:focus {
+    border-color: #3b82f6; 
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+  }
+  
+  .countdown-button {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color: #2563eb; 
+    color: white;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+  }
+  
+  .countdown-button:hover {
+    background-color: #1d4ed8; 
+  }
+  
+  /* Timer Display Styles */
+  .countdown-timer {
+    font-size: 1.5rem; 
+    font-weight: 600; 
+  }
+  
+  .timer-section {
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 1rem; 
+  }
+  
+  .timer-value {
+    color: #2563eb; 
+    display: block;
+  }
+  
+  .timer-label {
+    color: #6b7280; 
+  }
+  
+  /* Reset Button */
+  .reset-button {
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem; 
+    background-color: #6b7280; 
+    color: white;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+  }
+  
+  .reset-button:hover {
+    background-color: #4b5563; 
+  }
+  
